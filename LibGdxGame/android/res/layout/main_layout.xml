@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome CampK's"
+        android:textColor="#000"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/launch_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Go"
+        android:textSize="24sp"
+        android:layout_marginTop="36dp"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp"/>
+
+</LinearLayout>
